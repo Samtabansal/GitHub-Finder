@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+}
+
+.input, #output, #alert{
+    margin: 2rem 5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: .7rem 2rem;
+}
+
+#alert{
+    background: rgb(228, 76, 76);
+    color: white;
+    display: none;
+}
+
+#input-user{
+    padding: .7rem 1rem;
+}
+
+#output{
+    text-align: center;
+}
+
+#output a{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2%;
+}
+
+#output img{
+    height: 200px;
+    width: 200px;
+    border-style: outset;
+}
